@@ -24,4 +24,6 @@ function isa_test_cron_job_send_mail() {
 }
 error_log(print_r(time(), true));
 
+// one time
+//wp_clear_scheduled_hook( 'your_three_minute_action_hook' );
 ?>
